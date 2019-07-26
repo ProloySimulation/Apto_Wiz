@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:id="@+id/layout_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_user_info_name"
+                style="@style/style_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/et_user_info_flat_no"
+                style="@style/style_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Flat No" />
+
+            <EditText
+                android:id="@+id/et_user_info_floor_no"
+                style="@style/style_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Floor No." />
+
+            <EditText
+                android:id="@+id/et_user_info_house_no"
+                style="@style/style_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="House No." />
+
+            <EditText
+                android:id="@+id/et_user_info_primary_no"
+                style="@style/style_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Primary Contact No" />
+
+            <EditText
+                android:id="@+id/et_user_info_emergency_one"
+                style="@style/style_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Emergency Contact No 1" />
+
+
+            <EditText
+                android:id="@+id/et_user_info_emergency_two"
+                style="@style/style_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Emergency Contact No 2" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_user_info_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_user_info"
+            android:layout_marginTop="20dp"
+            android:text="Submit" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

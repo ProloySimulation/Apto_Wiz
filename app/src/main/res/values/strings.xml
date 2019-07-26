@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Apto Wiz</string>
+    <string name="str_about_us">About Us</string>
+    <string name="str_need_help">Need Help</string>
+    <string name="fill_all_info">Please provide the full mandatory\" +                     \"information to use the app.</string>
+</resources>
